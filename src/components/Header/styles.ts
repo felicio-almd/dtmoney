@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
     background: var(--blue);
+    @media screen and (max-width: 450px) {
+        height: 180px;
+    }
 `
 
 export const Content = styled.div`
@@ -13,6 +16,12 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    @media screen and (max-width: 450px) {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: auto;
+    }
+    
     button {
         font-size: 1rem;
         color: #fff;

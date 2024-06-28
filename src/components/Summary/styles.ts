@@ -5,6 +5,13 @@ export const Container = styled.div `
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-top: -10rem;
+    @media screen and (max-width: 450px) {
+        margin-top: 0;
+    }
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+    }
 
     div {
         background: var(--shape);
