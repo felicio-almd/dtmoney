@@ -2,7 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import { FirebaseError } from "firebase/app";
-import signIn from "../firebase/auth/signIn";
+import signIn from "../../firebase/auth/signIn";
 import { useRouter } from 'next/navigation';
 import { Container, FormContainer, Title, Form, FormLabel, FormInput, FormButton } from "./styles";
 

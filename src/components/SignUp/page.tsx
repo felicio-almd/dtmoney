@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useRouter } from "next/navigation"; 
-import signUp from "../firebase/auth/signUp";
+import signUp from "../../firebase/auth/signUp";
 import {
   Container,
   FormContainer,
