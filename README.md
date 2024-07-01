@@ -48,7 +48,7 @@ Usando react, typescript e styled components
 :heavy_check_mark: Feature 1: ReactJs and components\
 :heavy_check_mark: Feature 2: Typescript\
 :heavy_check_mark: Feature 3: Backend MirageJS, consuming API\
-:heavy_check_mark: Feature 4: Styled Components;
+:heavy_check_mark: Feature 4: Styled Components with responsivity;
 
 ## :rocket: Technologies ##
 

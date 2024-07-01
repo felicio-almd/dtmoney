@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Model, createServer } from 'miragejs';
 import { App } from './App';
+import { AuthContextProvider } from './context/AuthProvider';
 
 createServer({
   models: {
@@ -52,7 +53,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+      <App />
   </React.StrictMode>
 );
 
